@@ -77,6 +77,11 @@ img {
 .noPadd{
 	padding:0px !important;
 }
+#nav1{
+background-color: none;
+opacity: 0.5;
+filter: (opacity=50);
+}
 
 p{
 	font-size:13px;
@@ -305,8 +310,8 @@ header{
 }
 .nav > li > a{
 	display:inline-block;
-	font-size:12px;
-	font-weight:200;
+	font-size:14px;
+	font-weight:bold;
 	letter-spacing:2px;
 	color: black;
 }
@@ -314,6 +319,7 @@ header{
 	float: none;
 	display: inline-block;
 	color: black;
+	
 }
 .navbar-nav{
 	margin: 0 auto;
